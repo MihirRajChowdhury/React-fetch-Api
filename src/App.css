@@ -1,0 +1,23 @@
+.Box{
+  margin: 33px;
+  padding: 10px;
+  height: 273px;
+  width: 330px;
+  border: 2px solid silver;
+  text-align: center;
+ /* flex: 0 0 33.3333333%; */
+}
+.big-Box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.Box img{
+  height: 100px;
+  width: 100px;
+  border: 1px solid sienna;
+  margin: 10px;
+  padding: 10px;
+
+}
